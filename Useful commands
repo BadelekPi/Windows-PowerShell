@@ -1,0 +1,47 @@
+//Python commands:
+
+pip -V 
+//checking instaled version of pip
+
+python -V
+//checking instaled python version
+
+pip3 install --upgrade pip setuptools wheel
+//upgrade setup-tools wheels using by python3
+
+c:\folder_when_u_have_python -m pip install --upgrade pip
+//upgrading pip install
+
+
+
+
+
+
+
+
+
+//CMD commands:
+
+cd C:\Users\MyName\Desktop
+//change directory command 'cd' to change directory
+
+pushd <dir>
+//change directory from location a to location b
+
+popd
+//will change directory back to directory a
+
+Start-Transcript
+//created a file, everything that displayed on the screen, will show up in our transcript
+
+pip3 install --upgrade pip setuptools wheel
+//upgrade setup-tools wheels using by python3
+
+Get-Command -noun S*
+//searching all of commands starting with S letter
+
+Get-Command -noun service
+//get all of commands starting with service verb
+
+cls
+//clearing the screen
