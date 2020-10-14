@@ -45,3 +45,13 @@ Get-Command -noun service
 
 cls
 //clearing the screen
+
+get-process
+//giving like a task manager, show us all the running processes
+
+Get-Process -Name MicrosoftEdge | select-object *
+//giving all of the informations about the object
+
+get-history
+//all of past written commands
+
