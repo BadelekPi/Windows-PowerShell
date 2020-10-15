@@ -55,3 +55,15 @@ Get-Process -Name MicrosoftEdge | select-object *
 get-history
 //all of past written commands
 
+
+Memory:
+
+Get-PSDrive
+//return all of the drives associated in our system
+
+Get-PSDRive | Where-Object {$_.free -gt 1}
+//return all of the drives greater than 1 GB
+
+Get-PSDRive | Where-Object {$_.free -gt 1} | ForEach-Object {Write-Host "Free Space for" $_.root "is" ($_.Free/1gb) -ForegroundColor red}
+//return free space of the drives in gigabyte
+
